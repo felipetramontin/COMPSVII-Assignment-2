@@ -4,50 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Page 1</title>
 </head>
 
 <body>
-    <!-- the header is the top of the page with the name and a short description -->
-    <header>
-        <h1>Jardim Gramacho</h1>
-        <p>The largest landfill in Latin America.</p>
-    </header>
+    <div class="container">
+        <!-- the header is the top of the page with the name and a short description -->
+        <header>
+            <h1>Jardim Gramacho</h1>
+            <p>The largest landfill in Latin America.</p>
+        </header>
 
-    <!-- main part of the page -->
-    <main>
-        <!-- article is like a section that groups the text and images together -->
-        <article>
-            <img src="./images/gramacho-1.jpg" alt="Jardim Gramacho landfill" width="20%"/>
-            <h3>History</h3>
-            <p>
-                This talks about where Jardim Gramacho was built and mentions Christ the Redeemer statue.
-            </p>
-
-            <!-- list of facts about Jardim Gramacho -->
-            <section>
-                <ul>
-                    <li>The site receives more trash every day than any landfill in the world.</li>
-                    <li>7,000 tons of garbage arrive daily making up 70% of the trash produced by Rio de Janeiro and
-                        surrounding areas.</li>
-                </ul>
-            </section>
-
-            <!-- extra paragraph about its history -->
-            <section>
+        <!-- main part of the page -->
+        <main>        
+            <!-- article is like a section that groups the text and images together -->
+            <article>
+                <img src="./images/gramacho-1.jpg" alt="Jardim Gramacho landfill" id="img1" class="img"/>
+                <h3>History</h3>
                 <p>
-                    It was started in 1970 and later people called catadores began living and working there,
-                    picking recyclable materials to sell.
+                    This talks about where Jardim Gramacho was built and mentions Christ the Redeemer statue.
                 </p>
-            </section>
-        </article>
 
-    </main>
+                <!-- list of facts about Jardim Gramacho -->
+                <section>
+                    <ul>
+                        <li>The site receives more trash every day than any landfill in the world.</li>
+                        <li>7,000 tons of garbage arrive daily making up 70% of the trash produced by Rio de Janeiro and
+                            surrounding areas.</li>
+                    </ul>
+                </section>
 
-    <!-- footer at the bottom with a link to go to page 2 -->
-    <footer>
-        <h4>Learn more about Jardim Gramacho <a href="page2.html"> here</a>.</h4>
-    </footer>
+                <!-- extra paragraph about its history -->
+                <section>
+                    <p>
+                        It was started in 1970 and later people called catadores began living and working there,
+                        picking recyclable materials to sell.
+                    </p>
+                </section>
+            </article>
+            
+        </main>
+
+        <!-- footer at the bottom with a link to go to page 2 -->
+        <footer>
+            <h4>Learn more about Jardim Gramacho <a href="page2.html"> here</a>.</h4>
+        </footer>
+    </div>
 </body>
 
 </html>
