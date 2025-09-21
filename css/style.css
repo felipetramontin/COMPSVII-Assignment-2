@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    color: whitesmoke;
+    box-sizing: border-box;  
+    text-align: justify;  
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+    min-height: 50%;
+    width: 80%;
+    padding: 2em 4em;
+    border-radius: 4em;
+}
+
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5em;
+}
+
+
+.img {
+    margin: 1em;
+    float: right;
+    width: 30%;
+}
+
+#img1 {
+    border: 2px solid blue;
+    border-radius: 1em;
+}
+
+#img2 {
+    border: 2px solid red;
+    border-radius: 1.5em;
+}
