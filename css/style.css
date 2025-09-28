@@ -6,6 +6,9 @@ body {
     font-weight: 500;
 }
 
+.container {
+    padding: 2em;
+}
 /* Custom Image Borders */
 #img1 {
     border: 2px solid blue;
