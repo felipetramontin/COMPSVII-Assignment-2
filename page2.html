@@ -4,48 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Page 2</title>
 </head>
 
 <body>
-    <div class="container">
-        <!-- header at the top of the page -->
-        <header>
-            <h1>Jardim Gramacho</h1>
-            <p>The largest landfill in Latin America.</p>
+    <div class="container py-4">
+        <!-- Header -->
+        <header class="text-center mb-4">
+            <h1 class="display-4">Jardim Gramacho</h1>
+            <p class="lead">The largest landfill in Latin America.</p>
         </header>
 
-        <!-- main section of the page -->
+        <!-- Main Content -->
         <main>
-            <!-- article with info about how things are now -->
-            <article>
-                <img src="./images/gramacho-2.jpg" alt="Trash mountain at Jardim Gramacho landfill" id="img2" class="img" />
-                <section>
-                    <h2>Nowadays</h3>
+            <article class="row align-items-center">
+                <!-- Text Section -->
+                <div class="col-md-8">
+                    <section class="mb-3">
+                        <h2>Nowadays</h2>
                         <p>
                             Today roughly 3,000 catadores work on the landfill (although only 1,752 are officially
-                            registered) removing 200 tons of recyclable materials each day. They have extended the life
-                            of
-                            the landfill by removing materials that would have otherwise been buried and have
-                            contributed to
-                            the landfill having one of the highest recycling rates in the world.
+                            registered) removing
+                            200 tons of recyclable materials each day. They have extended the life of the landfill by
+                            removing materials
+                            that would have otherwise been buried and have contributed to the landfill having one of the
+                            highest recycling
+                            rates in the world.
                         </p>
-                </section>
-                <!-- ordered list with curiosities -->
-                <section>
-                    <h3>Curiosities</h3>
-                    <ol>
-                        <li>It is one of the largest landfills in the world, probably in the top 10.</li>
-                        <li>It closed in 2012, but there are still people that depend on it to survive.</li>
-                    </ol>
-                </section>
+                    </section>
+
+                    <!-- Ordered List -->
+                    <section>
+                        <h3>Curiosities</h3>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item bg-dark text-light">It is one of the largest landfills in the
+                                world, probably in the top 10.</li>
+                            <li class="list-group-item bg-dark text-light">It closed in 2012, but there are still people
+                                that depend on it to survive.</li>
+                        </ol>
+                    </section>
+                </div>
+
+                <!-- Image Section -->
+                <div class="col-md-4 text-center">
+                    <img src="./images/gramacho-2.jpg" alt="Trash mountain at Jardim Gramacho landfill"
+                        class="img-fluid rounded border border-danger shadow-sm" id="img2">
+                </div>
             </article>
         </main>
 
-        <!-- footer with a link to go back to page 1 -->
-        <footer>
-            <p>Go back to the <a href="index.html"> first page</a>.</p>
+        <!-- Footer -->
+        <footer class="text-center mt-4">
+            <a href="index.html" class="btn btn-outline-light">Back to First Page</a>
         </footer>
     </div>
 </body>
